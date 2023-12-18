@@ -1,0 +1,108 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Warna latar belakang */
+    color: #333; /* Warna teks utama */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #d9d9d9; /* Warna latar belakang container */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 5px solid #d9d9d9; /* Warna latar belakang border */
+  }
+  
+  .personal-info {
+    flex-grow: 1;
+  }
+  
+  h1 {
+    margin: 0;
+    color: #4d4d4d; /* Warna judul utama */
+  }
+  
+  .profil,
+  .pengalaman,
+  .pendidikan,
+  .skill {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #808080; /* Garis pemisah setiap bagian */
+    padding-bottom: 20px;
+  }
+  
+  h2 {
+    color: #4d4d4d; /* Warna judul bagian */
+    border-bottom: 2px solid #4d4d4d; /* Garis bawah judul */
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    color: #666; /* Warna teks untuk setiap item */
+  }
+  
+  /* Varian 1 */
+  .container {
+    background-color: #f2f2f2;
+  }
+  
+  /* Varian 2 */
+  .personal-info {
+    background-color: #d9d9d9;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Varian 3 */
+  h2 {
+    font-style: italic; /* Gaya tulisan miring pada judul bagian */
+  }
+  
+  /* Varian 4 */
+  ul li {
+    font-weight: bold; /* Teks tebal untuk setiap item */
+  }
+  
+  /* Varian 5 */
+  body {
+    font-size: 16px; /* Ukuran teks utama */
+  }
+  
+  /* Varian 6 */
+  .container {
+    border: 1px solid #4d4d4d; /* Garis tepi container */
+  }
+  
+  /* Varian 7 */
+  body {
+    background-color: #d9d9d9; /* Warna latar belakang body */
+  }
+  
+  /* Varian 8 */
+  .profile-picture {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efek bayangan pada foto profil */
+  }
+  
+  /* Varian 9 */
+  h1 {
+    text-transform: uppercase; /* Merubah teks judul utama menjadi huruf kapital */
+  }
+  

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"> <!-- Referensi ke file CSS yang baru -->
+  <title>Putri Nur Septia Waty- Biodata</title>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="photo.jpg" alt="Putri Nur Septia Waty" class="profile-picture" width="200px">
+      <div class="personal-info">
+        <h1>Putri Nur Septia Waty</h1>
+        <p><strong>Alamat:</strong> Pamulang – Tangerang Selatan</p>
+        <p><strong>No. Hp:</strong> (+62) 857-8346-4020</p>
+        <p><strong>Email:</strong> nrrspta2299@gmail.com</p>
+      </div>
+    </header>
+
+    <div class="profil">
+      <h2>01. PROFIL</h2>
+      <p>Saya orang yang ingin menjalani hidup dengan bahagia dan tanpa penyesalan</p>
+    </div>
+
+    <div class="pengalaman">
+      <h2>02. PENGALAMAN KERJA</h2>
+      <ul>
+        <li>1. Waitress Rumah Makan Gelompong(Juni 2019-September 2019)</li>
+        <li>2. Pegawai Toko Sinar Mas(November 2019- April 2019)</li>
+        <li>3. Kasir Di PB Mart (Agustus 2019-Agustus 2020)  </li>
+      </ul>
+    </div>
+
+    <div class="pendidikan">
+      <h2>03. PENDIDIKAN</h2>
+      <ul>
+        <li>SMAN N 1 Seputih Agung (2015-2018)</li>
+        <li>Teknik Informatika Universitas Pamulang(2021-Sekarang)</li>
+      </ul>
+    </div>
+
+    <div class="skill">
+      <h2>SKILLS</h2>
+      <ul>
+        <li>Microsoft Office (Microsoft Word, Microsoft Excel, Microsoft Power Point)</li>
+        <li>Mampu bekerja sebagai team</li>
+        <li>Bahasa : Indonesia, Inggris</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Jawaban no 1</h2>
+      <p> 
+        Website adalah sekumpulan halaman web yang saling terhubung dan dapat diakses melalui internet. Setiap halaman web memiliki konten, seperti teks, gambar, audio, atau video, yang dapat diakses oleh pengguna menggunakan perangkat yang terhubung ke internet melalui browser. Website beroperasi melalui kolaborasi kompleks antara web server, domain, dan hosting. Web server, yang menyimpan dan mengelola data, merespons permintaan pengguna dengan menyajikan halaman web. Domain berfungsi sebagai alamat unik yang mengarahkan ke server melalui DNS, sementara hosting adalah tempat penyimpanan file dan data website. Saat seseorang mengakses domain, permintaan diteruskan dari DNS ke server hosting, yang kemudian mengirimkan data halaman web ke browser pengguna. Dengan demikian, web server, domain, dan hosting bekerja bersama untuk menyediakan akses dan pengalaman pengguna dalam menjelajahi website.</p>
+    </div>
+
+  </div>
+
+  <!-- Script JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Skrip untuk efek hover pada judul utama
+      const mainTitle = document.querySelector('h1');
+
+      mainTitle.addEventListener('mouseenter', function () {
+        this.style.color = '#FF4500'; // Ganti warna saat dihover
+      });
+
+      mainTitle.addEventListener('mouseleave', function () {
+        this.style.color = '#4d4d4d'; // Kembalikan warna setelah keluar dari hover
+      });
+
+      // Skrip untuk menambahkan warna latar belakang pada bagian saat dihover
+      const sections = document.querySelectorAll('.profil, .pengalaman, .pendidikan, .skill');
+
+      sections.forEach(section => {
+        section.addEventListener('mouseenter', function () {
+          this.style.backgroundColor = '#ddd'; // Ganti warna latar belakang saat dihover
+        });
+
+        section.addEventListener('mouseleave', function () {
+          this.style.backgroundColor = ''; // Kembalikan warna latar belakang setelah keluar dari hover
+        });
+      });
+
+      // Skrip untuk menampilkan pesan saat gambar profil di klik
+      const profilePicture = document.querySelector('.profile-picture');
+
+      profilePicture.addEventListener('click', function () {
+        alert('Anda mengklik foto profil!');
+      });
+    });
+  </script>
+</body>
+</html>
